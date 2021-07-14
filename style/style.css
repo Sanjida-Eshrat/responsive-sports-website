@@ -148,7 +148,9 @@ Player section CSS
  .footer-container{
      background-color: #FFFFFF;
      width: 483px;
+     /* width:60% */
      height: 213px;
+     
      display: flex;
      flex-wrap: wrap;
      justify-content: center;
