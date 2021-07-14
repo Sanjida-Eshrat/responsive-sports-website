@@ -19,9 +19,12 @@ main{
 /* ----------
   Header CSS
 ------------ */
+header{
+    background-color:#562EFF ;
+}
 .header-container{
     padding-top: 40px;
-    background-color:#562EFF ;
+    /* background-color:#562EFF ; */
     display: grid;
     grid-template-columns: repeat(2,1fr);
     width: 100%;
@@ -150,8 +153,12 @@ Player section CSS
      flex-wrap: wrap;
      justify-content: center;
      align-items: center;
-     margin-top: 20px;
-    margin-left: 475px;
+     /* margin-top: 20px; */
+    /* margin-left: 475px; */
+    padding: 100px;
+    padding-left: 470px;
+  
+    text-align: center;
  }
  .footer-logo img{
     width: 100%;
@@ -162,16 +169,53 @@ Player section CSS
      display: grid;
      grid-template-columns: repeat(4,1fr);
      grid-column-gap: 5px;
-     width: 200px;
-     height: 40px;
-     margin-bottom: 7px;
+     margin-bottom: 15px;
  }
-  .fab{
-     /* background-color: #e6e6e6;
-     border-radius: 50%; */
-     font-size: 36px;
-     color: grey;
+  .social-icon{
+
+     text-align: center;
+     width: 32px;
+     height: 32px;
+     background-color: #e6e6e6;
+     border-radius: 50%;
+     line-height: 30px;
+     color: grey; 
  }
  .footer-info span{
      padding-bottom: 17px;
+
+ }
+
+ /* --------------------------------------------
+                    Responsive CSS
+ ------------------------------------------------*/
+
+ /* Mobile Device */
+ @media only screen and (max-width:668px){
+     .header-container{
+        grid-template-columns: repeat(1,1fr); 
+        width:100%;
+        height: 100%;
+     }
+     .players{
+        grid-template-columns: repeat(1,1fr);
+    
+     }
+     .player{
+         width: 420px;
+         height: 500px;
+     }
+    
+     .upcoming-matches{
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap:12px ;
+     }
+     .footer-container{
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+         /* display: flex;
+         flex-wrap:wrap ; */
+        width: 100%;
+     }
+
  }
