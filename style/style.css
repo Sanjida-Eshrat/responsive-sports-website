@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/*-----------
+  COMMON CSS  
+  ------------*/
+body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins','sans-serif';
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 100%;
+}
+/* ----------
+  Header CSS
+------------ */
+.header-container{
+    padding-top: 40px;
+    background-color:#562EFF ;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    /* height: 500px; */
+    grid-gap: 20px
+
+}
+.header-info{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 150px;
+}
+.header-title{
+    padding-left: 140px;
+    font-size: 64px;
+    color: #FFFFFF;
+}
+.link-button{
+    margin-left: 140px;
+    background-color: #b60f4c;
+    padding: 20px 80px ;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.link-button span{
+    margin-left: 12px;
+}
+
+.header-banner{
+    width: 50%;
+    height: 100%;
+    margin-left: 30px;
+}
+.header-banner img{
+    width: 556px;
+    height: 500px;
+}
+
+/* --------------
+Player section CSS
+---------------- */
+.players{
+    width: 80%;
+    margin-top: 70px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+}
+.player{
+    box-shadow: 1px 1px 25px gray;
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    background-color: #FFFFFF;
+}
+.player-image img {
+    height: 60%;
+    width: 100%;
+}
