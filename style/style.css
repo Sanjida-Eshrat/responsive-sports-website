@@ -14,6 +14,7 @@ main{
 .container{
     background-color: #FFFFFF;
     width: 100%;
+    margin-bottom: 60px;
 }
 /* ----------
   Header CSS
@@ -51,7 +52,7 @@ main{
 }
 
 .header-banner{
-    width: 50%;
+    width: 55%;
     height: 100%;
     margin-left: 30px;
 }
@@ -82,4 +83,31 @@ Player section CSS
 .player-image img {
     height: 60%;
     width: 100%;
+}
+
+/* -----------------
+ Upcoming Matches CSS
+ -------------------- */
+ .upcoming-matches{
+    width: 90%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+ }
+ .match{
+    width: 600px;
+    height: 680px;
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 25px gray;
+ }
+ .match-banner img {
+    height: 420px;
+    width: 100%;
+    border-radius: 5px;
 }
