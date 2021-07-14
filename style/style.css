@@ -88,6 +88,11 @@ Player section CSS
 /* -----------------
  Upcoming Matches CSS
  -------------------- */
+ .section-heading{
+     font-size: 40px;
+     color: #562EFF;
+     text-align: center;
+ }
  .upcoming-matches{
     width: 90%;
     background-color: #FFFFFF;
@@ -99,8 +104,9 @@ Player section CSS
     grid-column-gap: 30px;
  }
  .match{
-    width: 600px;
-    height: 680px;
+    width: 550px;
+    height: 550px;
+    margin-left: 40px;
     background-color: #FFFFFF;
     padding: 15px;
     border-radius: 8px;
@@ -111,3 +117,40 @@ Player section CSS
     width: 100%;
     border-radius: 5px;
 }
+
+/*---------------
+    Footer CSS 
+ ----------------*/
+ .footer-container{
+     background-color: #FFFFFF;
+     width: 483px;
+     height: 213px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     margin-top: 20px;
+    margin-left: 475px;
+ }
+ .footer-logo img{
+    width: 100%;
+    height: 50%;
+    margin-bottom:0;
+ }
+ .footer-icon{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-column-gap: 5px;
+     width: 200px;
+     height: 40px;
+     margin-bottom: 7px;
+ }
+  .fab{
+     /* background-color: #e6e6e6;
+     border-radius: 50%; */
+     font-size: 36px;
+     color: grey;
+ }
+ .footer-info span{
+     padding-bottom: 17px;
+ }
